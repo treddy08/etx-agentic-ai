@@ -26,6 +26,6 @@ policyDefaults:
   policyAnnotations: {"argocd.argoproj.io/compare-options": "IgnoreExtraneous",
                       "avp.kubernetes.io/path": "kv/data/ocp/sno/openshift-policy/llama-stack"}
 policies:
-  - name: llama-stack-operator-sno
+  - name: llama-stack-sno
     manifests:
-      - path: basic/
+      - path: basic-model/
